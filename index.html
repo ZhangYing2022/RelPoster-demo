@@ -162,10 +162,10 @@
     <div class="container">
       <!-- <h2 class="title is-3">Generated Poster</h2> -->
       <div class="columns is-centered">
-        <div class="column is-8"> <!-- 占2/3宽度，居中显示 -->
-          <figure class="image">
-            <img src="static/images/case.png" alt="Generated Poster by ReliPost" width="600" height="450">
-          </figure>
+        <div class="column is-12"> <!-- 改为占满宽度 -->
+          <div class="poster-container">
+            <img src="static/images/case.png" alt="Generated Poster by ReliPost" class="responsive-poster">
+          </div>
           <p class="has-text-centered is-size-6 mt-3">
             Generated Poster by ReliPost
           </p>
@@ -258,43 +258,24 @@
 
 
 
-
-<!-- Image carousel -->
+<!-- Image Display Section -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/case1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <h2 class="title is-3">Results</h2> 
+      <div class="columns is-centered">
+        <div class="column is-8"> <!-- 占2/3宽度，居中显示 -->
+          <figure class="image">
+            <img src="static/images/case1.png" alt="Generated Poster by ReliPost" width="1200" height="800">
+          </figure>
+          <p class="has-text-centered is-size-6 mt-3">
+            Comparison with Existing Methods
+          </p>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/case3.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <!-- <div class="item">
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div> -->
+    </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
 
 
 
@@ -383,7 +364,7 @@
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+  <!-- <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
@@ -399,7 +380,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Statcounter tracking code -->
   
